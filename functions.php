@@ -1,7 +1,7 @@
 <?php
 /**
- * Thematic Legacy Child Theme
+ * Test Thematic Develop branch theme
  * 
- * This theme's purpose is to demonstrate and test the legacy xhtml 
- * functionality of the Thematic Theme
+ * This theme's purpose is to test the bleeding edge develop branch 
+ * of the Thematic Theme
  */
