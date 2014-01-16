@@ -27,6 +27,14 @@ add_action( 'thematic_child_init', 'childtheme_theme_supports');
 
 
 /**
+ * Test best viewport value
+ */
+function childtheme_viewport_content( $content ) {
+	return 'width=device-width, initial-scale=1';
+}
+add_filter( 'thematic_meta_viewport_content', 'childtheme_viewport_content' );
+
+/**
  * Test filter for changing style dependencies
  */
 function childtheme_style_dependency( $dependencies ) {
